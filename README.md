@@ -1,7 +1,7 @@
 # Prereq
 
 1. Docker
-2. 2 GB RAM Size
+2. 8 GB RAM Size
 3. 6 GB Storage HDD/SSD
 
 # Diagram
@@ -28,6 +28,7 @@
     - `-$ docker exec -it mongo /bin/bash`
     - `-$ mongo -u $MONGO_INITDB_ROOT_USERNAME -p mongo-pw admin`
     - `-$ use config`
+    - `-$ rs.initiate()`
     - 
         ``` 
         db.createRole({

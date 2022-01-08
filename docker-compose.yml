@@ -25,7 +25,7 @@ services:
       POSTGRES_PASSWORD: postgres-pw
       POSTGRES_DB: customers
     volumes:
-      - .confluent-hub-components/configs/postgreconn.conf:/etc/postgresql/postgresql.conf
+      - ./confluent-hub-components/configs/postgreconn.conf:/etc/postgresql/postgresql.conf
     command: postgres -c config_file=/etc/postgresql/postgresql.conf
 
   elastic:
