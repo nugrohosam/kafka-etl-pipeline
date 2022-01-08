@@ -207,4 +207,4 @@
             'topics' = 'shipped_orders'
         );
         ```
-
+8. Try to fetch now! `curl http://localhost:9200/shipped_orders/_search?pretty`
