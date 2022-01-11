@@ -27,8 +27,8 @@
 6. get into mongo container and do something
     - `-$ docker exec -it mongo /bin/bash`
     - `-$ mongo -u $MONGO_INITDB_ROOT_USERNAME -p mongo-pw admin`
-    - `-$ use config`
     - `-$ rs.initiate()`
+    - `-$ use config`
     - 
         ``` 
         db.createRole({
